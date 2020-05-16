@@ -9,7 +9,7 @@
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 FROM gitpod/workspace-full
-USER root
+USER gitpod
 RUN sudo apt-get update -q \
     && sudo apt-get install -y php-dev
 
