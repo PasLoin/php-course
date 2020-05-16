@@ -4,4 +4,11 @@
 
 
 ## Instructions
-This is the template you will use to track the changes in our PHP tutorial. Clone this file in the www folder in your WAMP or MAMP server.
+This is the template you will use to track the changes in our PHP tutorial.
+
+## Modification 
+
+Setup is for using with Gitpod ; so no need to use a local server. 
+
+## Gitpod configuration is from : 
+https://github.com/danielcregg/gitpod-lamp
