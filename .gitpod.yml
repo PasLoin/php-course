@@ -1,6 +1,9 @@
-tasks:
-  - init: echo "Replace me with a build script for the project."
-    command: echo "Replace me with something that should run on every start, or just
-      remove me entirely."
 image:
   file: .gitpod.Dockerfile
+# This is to get rid of the annoying popup feel free to leave this out
+ports:
+  - port: 9000
+    onOpen: ignore
+vscode:
+  extensions:
+    - felixfbecker.php-debug@1.13.0:WX8Y3EpQk3zgahy41yJtNQ==
