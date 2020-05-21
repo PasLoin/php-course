@@ -49,6 +49,11 @@ $Lightning = new Car();
 
 // show object properties
 echo $Lightning->model;
+
+	for($index = 0; $index < 5; $index ++)
+{
+    echo "Current loop counter ".$index.".\n";
+}  
 	  
     ?>
   </body>
